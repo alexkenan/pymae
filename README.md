@@ -14,7 +14,7 @@ So, this book is about Python. Specifically, it is about Python in the context o
 5) Mechanical properties of different aluminum alloys
 
 
-Don’t be scared if you do not understand all of those topics; a complete understanding of these subjects is not required. This book is available via [Amazon][Amazon] or [Apple Books][Apple Books].
+Don’t be scared if you do not understand all of those topics; a complete understanding of these subjects is not required. This book is available on [Amazon][Amazon] or [Apple Books][Apple Books].
 
 
 Take a test drive of this book by previewing Chapter 5, Modeling a 2-body orbit in two and three dimensions.
@@ -90,7 +90,7 @@ plt.show()
 
 <img src="https://github.com/alexkenan/pymae/blob/master/readme_files/2d_space.png" alt="2D space plot" width="514px" height="400px">
 
-To learn how to make the following images, and many others like it, purchase my book via [Amazon][Amazon] or [Apple Books][Apple Books].
+To read the rest of the book, purchase it on [Amazon][Amazon] or [Apple Books][Apple Books].
 
 [//]: # ( !space https://github.com/alexkenan/pymae/blob/master/readme_files/space.gif?raw=true )
 
