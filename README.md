@@ -5,7 +5,7 @@ by Alex Kenan
 ## What is this book about?
 The traditional computer science courses for engineering focus on the fundamentals of programming without demonstrating the wide array of practical applications for fields outside of computer science. Thus the mindset of “Java/Python is for computer science people or programmers, and MATLAB is for engineering” develops. MATLAB tends to dominate the engineering space because it is viewed as a batteries-included software kit that is focused on functional programming. Everything in MATLAB is some sort of array, and it lends itself to engineering integration with its toolkits like Simulink and other add-ins. The downside of MATLAB is that it is proprietary software, the license is expensive to purchase, and it is more limited than Python for doing tasks besides calculating or data capturing. 
 
-So, this book is about Python. Specifically, it is about Python in the context of mechanical and aerospace engineering. This book assumes a college junior level of aerospace engineering understanding. I use examples like
+So, this book is about the Python programming language. Specifically, it is about Python in the context of mechanical and aerospace engineering. This book assumes a college junior level of aerospace engineering understanding. I use examples like
 
 * Thrust available and thrust required for an aircraft
 * Dynamic pressure and how it changes with altitude and velocity
@@ -13,13 +13,15 @@ So, this book is about Python. Specifically, it is about Python in the context o
 * Orbital mechanics and orbital parameters
 * Mechanical properties of different aluminum alloys
 
+Don’t be scared if you don't understand all of those topics; they are just being used to provide concrete examples for how Python can be used for engineering.
+
 In total, there are 10 chapters:
 
 1.	Intro chapter on how to download Python via Anaconda distribution and getting started with Python syntax
 1.  FizzBuzz with Python to demonstrate a basic Python program
 2.	Graphing thrust required and thrust available for an A321 at three different altitudes with Matplotlib
 3.	Graphing dynamic pressure as a function of time for a rocket launch with matplotlib 
-4.	Getting and plotting airfoil (2D aircraft wing) coordinates with requests and matplotlib
+4.	Getting and plotting airfoil coordinates with requests and matplotlib
 5.	Modeling a satellite’s orbit around Earth with PyAstronomy and matplotlib
 6.	Introduction to web scraping (requests and beautifulsoup4) and exporting data to Excel (openpyxl)
 7.	Modeling camera shutter effect on an aircraft’s propeller with tkinter and Numpy
@@ -27,10 +29,7 @@ In total, there are 10 chapters:
 9.	Making pdf reports of Python code with Pweave
 
 
-
-Don’t be scared if you do not understand all of those topics; a complete understanding of these subjects is not required. 
-
-This book is available on [Amazon Kindle][AmazonK] or [Apple Books][Apple Books].
+This book is available on [Amazon Kindle][AmazonK], [Apple Books][Apple Books], or [Amazon softcover][AmazonS].
 
 
 Take a test drive of this book by previewing Chapter 5, Modeling a 2-body orbit in two and three dimensions.
@@ -106,11 +105,12 @@ plt.show()
 
 <img src="https://github.com/alexkenan/pymae/blob/master/readme_files/2d_space.png" alt="2D space plot" width="514px" height="400px">
 
-To read the rest of the book, purchase it on [Amazon Kindle][AmazonK] or [Apple Books][Apple Books].
+To read the rest of the book, find it available on [Amazon Kindle][AmazonK], [Apple Books][Apple Books], or [Amazon softcover][AmazonS].
 
 [//]: # ( !space https://github.com/alexkenan/pymae/blob/master/readme_files/space.gif?raw=true )
 
 [//]: # ( img src="https://github.com/alexkenan/pymae/blob/master/readme_files/3d_space.png" alt="3D space plot" width="564px" height="495px")
 
 [AmazonK]:    https://www.amazon.com
+[AmazonS]:   https://www.amazon.com
 [Apple Books]:     https://www.apple.com
