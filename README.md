@@ -107,9 +107,9 @@ plt.show()
 
 To read the rest of the book, find it available on [Amazon Kindle][AmazonK], [Apple Books][Apple Books], or [Amazon softcover][AmazonS].
 
-[//]: # ( !space https://github.com/alexkenan/pymae/blob/master/readme_files/space.gif?raw=true )
+<img src="https://github.com/alexkenan/pymae/blob/master/readme_files/space.gif" alt="animated space gif">
 
-[//]: # ( img src="https://github.com/alexkenan/pymae/blob/master/readme_files/3d_space.png" alt="3D space plot" width="564px" height="495px")
+<img src="https://github.com/alexkenan/pymae/blob/master/readme_files/3d_space.png" alt="3D space plot" width="564px" height="495px">
 
 [AmazonK]:    https://www.amazon.com
 [AmazonS]:   https://www.amazon.com
