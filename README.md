@@ -105,7 +105,7 @@ plt.show()
 
 <img src="https://github.com/alexkenan/pymae/blob/master/readme_files/2d_space.png" alt="2D space plot" width="514px" height="400px">
 
-To read the rest of the book, find it available on [Amazon Kindle][AmazonK], [Apple Books][Apple Books], or [Amazon softcover][AmazonS].
+To read the rest of the book, find it on [Amazon Kindle][AmazonK], [Apple Books][Apple Books], or [Amazon softcover][AmazonS].
 
 <img src="https://github.com/alexkenan/pymae/blob/master/readme_files/space.gif" alt="animated space gif">
 
