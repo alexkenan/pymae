@@ -3,7 +3,7 @@
 """
 Use pweave to create a shareable report of Python code
 
-Produced for "Python for Mechanical and Aerospace Engineering" by Alex Kenan, ISBN 978-1-7360606-0-5.
+Produced for "Python for Mechanical and Aerospace Engineering" by Alex Kenan, ISBN 978-1-7360606-0-5 and 978-1-7360606-1-2.
 Copyright © 2020 Alexander Kenan. Some Rights Reserved. This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. 
 See http://creativecommons.org/licenses/by-nc-sa/4.0/ for more information.
 """
