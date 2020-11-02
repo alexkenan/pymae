@@ -8,7 +8,7 @@ This is the GitHub repository for the book Python for Mechanical and Aerospace E
 
 **chapter 1_5**:  FizzBuzz with Python to demonstrate a basic Python program  
 **chapter 2**:	Graphing thrust required and thrust available for an Airbus A321 at three different altitudes with **Matplotlib**  
-**chapter 3**:	Graphing dynamic pressure as a function of time for a rocket launch with **Matplotlib**
+**chapter 3**:	Graphing dynamic pressure as a function of time for a rocket launch with **Matplotlib**    
 **chapter 4**:	Getting and plotting airfoil coordinates with **Requests** and **Matplotlib**  
 **chapter 5**:	Modeling a satellite’s orbit around Earth with **PyAstronomy** and **Matplotlib**  
 **chapter 6**:	Creating a GUI to convert units with **Tkinter** and **Pint**  
