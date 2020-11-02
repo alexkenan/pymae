@@ -13,7 +13,7 @@ This is the GitHub repository for the book Python for Mechanical and Aerospace E
 **chapter 5**:	Modeling a satellite’s orbit around Earth with **PyAstronomy** and **Matplotlib**  
 **chapter 6**:	Creating a GUI to convert units with **Tkinter** and **Pint**  
 **chapter 7**:	Introduction to web scraping (**Requests** and **BeautifulSoup4**) and exporting data to Excel (**Openpyxl**)  
-**chapter 8**:	Modeling camera shutter effect on an aircraft’s propeller with **Tkinter** and **Numpy**
+**chapter 8**:	Modeling camera shutter effect on an aircraft’s propeller with **Tkinter** and **Numpy**    
 **chapter 9**:	Making pdf reports of Python code with **Pweave**  
 
 
