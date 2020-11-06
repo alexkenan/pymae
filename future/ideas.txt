@@ -1,0 +1,3 @@
+* Stress vs strain diagram for ductile and brittle materials
+* Sympy
+* Position vs time, velocity vs time, and acceleration vs time for an aircraft accelerating for takeoff
