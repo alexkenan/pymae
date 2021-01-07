@@ -20,5 +20,5 @@ This corrected density function should give you the original Max Q psf average a
             temp = -205.05 + 0.00164 * height
             p = 51.97*((temp + 459.7)/389.98)**-11.388
 
-        rho = p/(1718*(temp+459.7))
+        rho = p/(1718*(temp + 459.7))
         return rho
