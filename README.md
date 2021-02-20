@@ -6,7 +6,7 @@ by Alex Kenan
 
 This is the GitHub repository for the book *Python for Mechanical and Aerospace Engineering* by Alex Kenan. This repository contains completed programs for the nine chapters as well as the entire 595 page syllabus and course materials for an internal NSA "Introduction to Python" class that was made available by a Freedom of Information Act request.
 
-**chapter 1_5**:  FizzBuzz with Python to demonstrate a basic Python program  
+**chapter 1.5**:  FizzBuzz with Python to demonstrate a basic Python program  
 **chapter 2**:	Graphing thrust required and thrust available for an Airbus A321 at three different altitudes with **Matplotlib**  
 **chapter 3**:	Graphing dynamic pressure as a function of time for a rocket launch with **Matplotlib**    
 **chapter 4**:	Getting and plotting airfoil coordinates with **Requests** and **Matplotlib**  
