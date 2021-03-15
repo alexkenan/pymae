@@ -25,7 +25,7 @@ This corrected density function should give you the original Max Q psf average a
 
 You will have to adjust the plotting offsets in `chap3.py` to correct for the changed scale and magnitude:
 
-**chap3.py**:
+**chap3.py**
 
 ```
 # Imports
