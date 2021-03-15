@@ -47,3 +47,11 @@ This corrected density function should give you the original Max Q psf average a
 
         rho = p/(1718*(temp + 459.7))
         return rho
+
+You will have to adjust the plotting offsets in chap3.py to correct for the changed scale and magnitude:
+
+> xytext=(x_values[ind] + 15, ~~max_val + 1E5~~),
+
+should be
+
+> xytext=(x_values[ind] + 15, **max_val + 15**),
