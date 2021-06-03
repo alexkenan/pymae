@@ -17,7 +17,7 @@ This is the GitHub repository for the book *Python for Mechanical and Aerospace 
 **chapter 9**:	Making pdf reports of Python code with **Pweave**  
 
 
-[Learn more about Python for Mechanical and Aerospace Engineering here](https://www.alexkenan.com/pymae/)
+Learn more about the *Python for Mechanical and Aerospace Engineering* book [here](https://www.alexkenan.com/pymae/). This GitHub repository has also been converted into an interactive Educative.io course; learn more about that [here](https://www.educative.io/courses/python-mech-aero-engineering).
 
 
 <center><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a></center><br />
