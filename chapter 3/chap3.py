@@ -6,6 +6,9 @@ time for several different rocket launches
 Produced for "Python for Mechanical and Aerospace Engineering" by Alex Kenan, ISBN 978-1-7360606-0-5 and 978-1-7360606-1-2.
 Copyright © 2020 Alexander Kenan. Some Rights Reserved. This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. 
 See http://creativecommons.org/licenses/by-nc-sa/4.0/ for more information.
+
+NOTE: An older version of this file incorrectly calculated density, which resulted in computing an initial Max Q of nearly 1 billion psf. 
+This is the correct file that more accurately calculates density.
 """
 # Imports
 import numpy as np
@@ -22,13 +25,15 @@ def density(height: float) -> float:
     """
     if height < 36152.0:
         temp = 59 - 0.00356 * height
-        rho = 2116 * ((temp + 459.7)/518.6)**5.256
+        p = 2116 * ((temp + 459.7)/518.6)**5.256
     elif 36152 <= height < 82345:
-        rho = 473.1*np.exp(1.73 - 0.000048*height)
+        temp = -70
+        p = 473.1*np.exp(1.73 - 0.000048*height)
     else:
         temp = -205.05 + 0.00164 * height
-        rho = 51.97*((temp + 459.7)/389.98)**-11.388
+        p = 51.97*((temp + 459.7)/389.98)**-11.388
 
+    rho = p/(1718*(temp+459.7))
     return rho
 
 
@@ -61,6 +66,7 @@ if __name__ == '__main__':
     y_values = []
     x_values = np.arange(0.0, 550.0, 0.5)
     for elapsed_time in x_values:
+        #
         '''
         Acceleration is the average acceleration
         to go from 0 ft/s to 26,400 ft/s
@@ -78,9 +84,9 @@ if __name__ == '__main__':
     ind = y_values.index(max_val)
 
     # Plot an arrow and text with the max value
-    plt.annotate('{:.2E} psf @ {} s'.format(max_val, x_values[ind]),
+    plt.annotate('{:.0f} psf @ {} s'.format(max_val, x_values[ind]),
                  xy=(x_values[ind] + 2, max_val),
-                 xytext=(x_values[ind] + 15, max_val + 1E5),
+                 xytext=(x_values[ind] + 15, max_val + 15),
                  arrowprops=dict(facecolor='blue', shrink=0.05),
                  )
     # plot the point of Max Q
@@ -100,9 +106,9 @@ if __name__ == '__main__':
     ind = y2_values.index(max_val)
 
     # Plot an arrow and text with the max value
-    plt.annotate('{:.2}E+09 psf @ {} s'.format(max_val/1E9, x_values[ind]),
+    plt.annotate('{:.0f} psf @ {} s'.format(max_val, x_values[ind]),
                  xy=(x_values[ind] + 3, max_val),
-                 xytext=(x_values[ind] + 15, max_val + 1E5),
+                 xytext=(x_values[ind] + 15, max_val + 15),
                  arrowprops=dict(facecolor='black', shrink=0.05),
                  )
 
@@ -123,9 +129,9 @@ if __name__ == '__main__':
     ind = y3_values.index(max_val)
 
     # Plot an arrow and text with the max value
-    plt.annotate('{:.2}E+09 psf @ {} s'.format(max_val/1E9, x_values[ind]),
+    plt.annotate('{:.0f} psf @ {} s'.format(max_val, x_values[ind]),
                  xy=(x_values[ind] + 3, max_val),
-                 xytext=(x_values[ind] + 15, max_val + 1E5),
+                 xytext=(x_values[ind] + 15, max_val + 15),
                  arrowprops=dict(facecolor='green', shrink=0.05),
                  )
 
