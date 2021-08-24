@@ -8,7 +8,9 @@ Copyright © 2020 Alexander Kenan. Some Rights Reserved. This work is licensed u
 See http://creativecommons.org/licenses/by-nc-sa/4.0/ for more information.
 
 NOTE: An older version of this file incorrectly calculated density, which resulted in computing an initial Max Q of nearly 1 billion psf. 
-This is the correct file that more accurately calculates density.
+This is the correct `density()` function that more accurately calculates density.
+
+See `chap3_old.py` for the original `density()` function.
 """
 # Imports
 import numpy as np
