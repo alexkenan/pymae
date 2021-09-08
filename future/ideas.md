@@ -4,3 +4,4 @@
 * Creating applications with Py2App, Py2Exe, and cx_freeze
 * Sympy derivatives for simple harmonic motion
 * SimuPy
+* [Huracan](https://github.com/alopezrivera/huracan)
