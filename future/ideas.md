@@ -8,3 +8,4 @@
 * [Poliastro](https://docs.poliastro.space/en/stable/) for satellite ground tracks
 * [AeroSandbox](https://github.com/peterdsharpe/AeroSandbox)
 * Numerical integration with accelerometer data
+* [SUAVE](https://suave.stanford.edu/index.html)
