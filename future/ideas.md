@@ -9,3 +9,4 @@
 * [AeroSandbox](https://github.com/peterdsharpe/AeroSandbox)
 * Numerical integration with accelerometer data
 * [SUAVE](https://suave.stanford.edu/index.html)
+* [Ptera Software](https://github.com/camUrban/PteraSoftware)
