@@ -26,13 +26,15 @@ def density(height: float) -> float:
     """
     if height < 36152.0:
         temp = 59 - 0.00356 * height
-        rho = 2116 * ((temp + 459.7)/518.6)**5.256
+        p = 2116 * ((temp + 459.7)/518.6)**5.256
     elif 36152 <= height < 82345:
-        rho = 473.1*np.exp(1.73 - 0.000048*height)
+        temp = -70
+        p = 473.1*np.exp(1.73 - 0.000048*height)
     else:
         temp = -205.05 + 0.00164 * height
-        rho = 51.97*((temp + 459.7)/389.98)**-11.388
+        p = 51.97*((temp + 459.7)/389.98)**-11.388
 
+    rho = p/(1718*(temp + 459.7))
     return rho
 
 
