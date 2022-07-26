@@ -4,7 +4,8 @@
 Use pweave to create a shareable report of Python code
 
 Produced for "Python for Mechanical and Aerospace Engineering" by Alex Kenan, ISBN 978-1-7360606-0-5 and 978-1-7360606-1-2.
-Copyright © 2020 Alexander Kenan. Some Rights Reserved. This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. 
+Copyright © 2020 Alexander Kenan. Some Rights Reserved. This work is licensed under a 
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. 
 See http://creativecommons.org/licenses/by-nc-sa/4.0/ for more information.
 """
 
@@ -112,9 +113,9 @@ plt.style.use('bmh')
 plt.plot(x_values, y_values, 'b-',
          label=r"a = 51.76 $\frac{ft}{s^2}$")
 
-plt.annotate('{:.2E} psf @ {} s'.format(max_val, x_values[ind]),
+plt.annotate('{:,.0f} psf @ {} s'.format(max_val, x_values[ind]),
              xy=(x_values[ind] + 2, max_val),
-             xytext=(x_values[ind] + 15, max_val + 1E5),
+             xytext=(x_values[ind] + 15, max_val + 15),
              arrowprops=dict(facecolor='blue', shrink=0.05),
              )
 
@@ -125,9 +126,9 @@ plt.plot(x_values, y2_values, 'k-',
          label=r"a = 32.2 $\frac{ft}{s^2}$")
 
 
-plt.annotate('{:.2}E+09 psf @ {} s'.format(max_val2/1E9, x_values[ind2]),
+plt.annotate('{:.0f} psf @ {} s'.format(max_val2, x_values[ind2]),
              xy=(x_values[ind2] + 3, max_val2),
-             xytext=(x_values[ind2] + 15, max_val2 + 1E5),
+             xytext=(x_values[ind2] + 15, max_val2 + 15),
              arrowprops=dict(facecolor='black', shrink=0.05),
              )
 
@@ -136,12 +137,12 @@ plt.plot(x_values[ind2], max_val2, 'rx')
 
 # Plot the third line and Max Q
 
-plt.plot(x_values, y3_values, 'g-',
+plt.plot(x_values, y3_values, 'g',
          label=r"a = 20.0 $\frac{ft}{s^2}$")
 
-plt.annotate('{:.2}E+09 psf @ {} s'.format(max_val3/1E9, x_values[ind3]),
+plt.annotate('{:.0f} psf @ {} s'.format(max_val3, x_values[ind3]),
              xy=(x_values[ind3] + 3, max_val3),
-             xytext=(x_values[ind3] + 15, max_val3 + 1E5),
+             xytext=(x_values[ind3] + 15, max_val3 + 15),
              arrowprops=dict(facecolor='green', shrink=0.05),
              )
 
